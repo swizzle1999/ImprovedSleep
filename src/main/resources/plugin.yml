@@ -1,0 +1,5 @@
+name: ImprovedSleep
+version: ${project.version}
+main: com.swizzle.improvedsleep.ImprovedSleep
+api-version: 1.13
+authors: [swizzle1999]
