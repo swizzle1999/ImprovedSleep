@@ -13,7 +13,6 @@ public class PlayerSleepEvent implements Listener {
     @EventHandler
     public void onPlayerSleep(PlayerBedEnterEvent e){
         if (e.getBedEnterResult().equals(PlayerBedEnterEvent.BedEnterResult.OK)){
-            System.out.println("player got in bed");
             Bukkit.getScheduler().scheduleSyncDelayedTask(ImprovedSleep.getInstance(), new Runnable() {
                 @Override
                 public void run() {
